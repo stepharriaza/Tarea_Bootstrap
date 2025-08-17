@@ -1,0 +1,35 @@
+body{
+    font-size: Helvetica Neue;
+}
+.container-nav{
+    padding: 10px 0px 10px 0px;
+}
+.container-info{
+    padding: 0px 15px 0px 15px;
+}
+.container-izq{
+    background: Lavender;
+    padding: 10px;
+}
+.container-centro{
+    padding: 10px;
+}
+.container-der{
+    background: Lavender;
+    padding-top: 15px ;
+}
+.container-footer{
+    background-color: Mediumpurple;
+    margin: 15px 0px 15px 0px;
+    padding: 10px;
+    text-align: right;
+}
+.container-footer p{
+    margin-bottom: 0px;
+}
+.btnChat{
+    background: MediumPurple	 !important;
+}
+.container-video{
+    margin: 15px 0px 15px 0px;
+}
