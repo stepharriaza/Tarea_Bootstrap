@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acerca de Mi</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f7f5fa; /* morado muy clarito */
+    }
+    .navbar {
+      background-color: #6a0dad; /* morado fuerte */
+    }
+    .navbar a, .navbar-brand {
+      color: white !important;
+    }
+    h1, h2, h3 {
+      color: #4b0082; /* morado intermedio */
+    }
+    .footer {
+      background-color: #6a0dad;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      margin-top: 20px;
+    }
+    .card {
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Acerca de mi</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon" style="filter: invert(1);"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Regresar</a></li>
+          <li class="nav-item"><a class="nav-link" href="#" target="_blank">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- PRESENTACIÓN -->
+  <header class="text-center my-4">
+    <h1 class="fw-bold">Stephanie Arriaza</h1>
+  </header>
+
+  <div class="container">
+    <div class="row g-4">
+      <!-- ESTUDIOS Y LENGUAJES -->
+      <div class="col-lg-4">
+        <div class="card p-3">
+          <h3>Estudios</h3>
+          <h5>2020 - 2021</h5>
+          <p>Colegio Junkabal <br> Bachiller en Ciencias y Letras</p>
+          <h5>2022 - Actualidad</h5>
+          <p>Universidad Mesoamericana <br> Ingeniería en Sistemas</p>
+
+          <h3>Lenguajes</h3>
+          <ul>
+            <li>Español | Lengua Materna</li>
+            <li>Inglés | Nivel Intermedio B1</li>
+            <li>Italiano | Nivel Básico A2</li>
+          </ul>
+
+          <h3>Pasatiempos</h3>
+          <ul>
+            <li>Manualidades</li>
+            <li>Música</li>
+            <li>Mi mascota</li>
+            <li>Historias de misterio o terror</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- MÁS SOBRE MIS PASATIEMPOS -->
+      <div class="col-lg-4">
+        <div class="card p-3">
+          <h2>Más sobre mis pasatiempos</h2>
+          <h3>Manualidades</h3>
+          <p>Desde que tengo memoria me han gustado las manualidades, recuedo que de pequeña mi mamá me llevaba a mi 
+          y a mis hermanas a talleres que realizaba la muni en zona 1, realizamos diferentes manualidades, pero me recuerdo 
+          más que pintabamos cuadros. Fui creciendo y empece a tener un gusto por la bisutería, al inicio me compraron materiales 
+          de fantasía, recuerdo también una epoca cuando se volvieron de moda unas pulceras que se hacían con ligas e hice muchísimas de ellas. 
+          Otro tipo de manualidades que me gustan es tejer y bordar, ambas las fui aprendiendo parte en el colegio donde estudiaba y 
+          parte lo aprendí en internet. En la actualidad encontre un gusto por realizar flores hechas con limpiapipas y con mis hermanas
+          creamos un emprendimiento de esto.</p>
+          <h3>Música</h3>
+          <p>Suelo escuchar diferentes tipos de música, he tratado de explorar mis gustos musicales, pero siempre ha sobresalido 
+          mi gusto por la música romantica, por lo que no es sorprendente que Morat sea mi banda favorita, he ido casi a todos los 
+          conciertos que han realizado en el país. </p>
+          <h3>Misterio y terror</h3>
+          <p>No sé precisamente de dónde viene mi gusto por los videos de misterio o terror, pero desde pequeña me han gustado las 
+          peliculas de terror y mientras fui creciendo me fue interesando más y comence a ver video que relataban historias de terror,
+          casos misteriosos o casos de la vida real.</p>
+        </div>
+      </div>
+
+      <!-- IMÁGENES Y VIDEO -->
+      <div class="col-lg-4">
+        <div class="card p-3 text-center">
+          <h2>Pasatiempos favoritos</h2>
+          <img src="img/miluimg.JPG" class="img-fluid rounded mb-3" alt="Mi mascota">
+          <div class="ratio ratio-16x9">
+            <iframe src="https://www.youtube.com/embed/wYNzRM0ToYQ?si=6Ezq6vLUiITY7ccr" title="YouTube video" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>Fecha de última actualización: 13/08/2024</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
